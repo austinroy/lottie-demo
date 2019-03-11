@@ -30,6 +30,7 @@ class ControlledLottie extends Component {
     return(
       <div className="controlled">
         <h1>Controlled Lottie</h1>
+        <p>Uses state manipulation to start, stop and pause animations</p>
         <Lottie options={defaultOptions}
               height={400}
               width={400}
